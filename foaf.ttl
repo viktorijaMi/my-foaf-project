@@ -26,7 +26,7 @@
     a foaf:Person ;
     foaf:name "Aleksandar" ;
     foaf:mbox_sha1sum "24b3feb2c88cbf5c3a865fcfb8769a02bb42bee3" ;
-    rdfs:seeAlso < https://raw.githubusercontent.com/Aleksandar1932/WBS_2021/lab-05/foaf.ttl>
+    rdfs:seeAlso <https://raw.githubusercontent.com/Aleksandar1932/WBS_2021/lab-05/foaf.ttl>
   ], [
     a foaf:Person ;
     foaf:name "Ana" ;
