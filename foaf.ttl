@@ -1,0 +1,35 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://raw.githubusercontent.com/viktorijaMi/my-foaf-project/master/foaf.ttl>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://raw.githubusercontent.com/viktorijaMi/my-foaf-project/master/foaf.ttl#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/viktorijaMi/my-foaf-project/master/foaf.ttl#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://raw.githubusercontent.com/viktorijaMi/my-foaf-project/master/foaf.ttl#me>
+  a foaf:Person ;
+  foaf:name "Viktorija Mijalcheva" ;
+  foaf:title "Mrs" ;
+  foaf:givenname "Viktorija" ;
+  foaf:family_name "Mijalcheva" ;
+  foaf:nick "Viki" ;
+  foaf:mbox_sha1sum "0d1a2f52a5120c2d4cfd1d0962ff29a2c9c7f3b5" ;
+  foaf:homepage <https://www.linkedin.com/in/viktorija-mijalcheva-8905021a7/> ;
+  foaf:phone <tel:070362625> ;
+  foaf:workplaceHomepage <https://www.linkedin.com/company/teamlift1/> ;
+  foaf:workInfoHomepage <https://money.usnews.com/careers/best-jobs/software-developer> ;
+  foaf:schoolHomepage <https://finki.ukim.mk/> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Aleksandar" ;
+    foaf:mbox_sha1sum "24b3feb2c88cbf5c3a865fcfb8769a02bb42bee3" ;
+    rdfs:seeAlso < https://raw.githubusercontent.com/Aleksandar1932/WBS_2021/lab-05/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Ana" ;
+    foaf:mbox_sha1sum "c53ed83fb2ec71110a63d347dd146f4f3d0a90dd" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/anadavcheva/my-foaf-project/master/foaf.ttl>
+  ] .
